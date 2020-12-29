@@ -9,7 +9,7 @@ def counter(text, pattern):
         if match == pattern:
             count += 1
     return count
-
+# Returns the most frequent k-mers in text
 def frequentWords(text, k):
     k = int(k)
     frequent_patterns = {}
